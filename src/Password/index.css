@@ -1,0 +1,103 @@
+.appLogo {
+  width: 10%;
+  height: 10%;
+}
+
+.container1 {
+  background-color: #5763a5;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+
+  color: white;
+}
+
+.passwordManager {
+  height: 250px;
+  width: 250px;
+  margin-left: 30px;
+  align-self: center;
+}
+.container2 {
+  background-color: #5763a5;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+.textContainer {
+  background-color: #454f84;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.textbox {
+  background-color: #f8fafc;
+  display: flex;
+  flex-direction: row;
+  margin: 5px;
+}
+.icon {
+  height: 40px;
+  width: ;
+  padding: 8px;
+}
+.enterText {
+}
+.button1 {
+  background-color: #0b69ff;
+  border: 0px;
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+}
+.buttonBox {
+  align-self: flex-end;
+}
+.hedderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.checkboxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 4px;
+}
+.checkboxx {
+  margin: 7px;
+}
+
+.nopasswords {
+  height: 250px;
+  width: 250px;
+}
+.nopass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.listt {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.number {
+  margin: 5px;
+  border: 1px solid white;
+  padding: 2px;
+  border-radius: 8px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
