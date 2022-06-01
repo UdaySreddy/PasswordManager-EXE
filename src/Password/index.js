@@ -80,37 +80,38 @@ class Password extends Component {
             <h1>Add New Password</h1>
             <div className="textbox">
               <img
-                className="icon"
+                className="icon1"
                 src="https://assets.ccbp.in/frontend/react-js/password-manager-website-img.png"
                 alt="website"
               />
               <input
                 onChange={this.webSite}
-                className="enterText"
+                className="searchBox1"
                 type="text"
                 placeholder="Enter website"
               />
             </div>
             <div className="textbox">
               <img
-                className="icon"
+                className="icon1"
                 src="https://assets.ccbp.in/frontend/react-js/password-manager-username-img.png"
                 alt="username"
               />
               <input
                 onChange={this.userName}
-                className="enterText"
+                className="searchBox1"
                 type="text"
                 placeholder="Enter Username"
               />
             </div>
             <div className="textbox">
               <img
-                className="icon"
+                className="icon1"
                 src="https://assets.ccbp.in/frontend/react-js/password-manager-password-img.png"
                 alt="password"
               />
               <input
+                className="searchBox1"
                 onChange={this.password}
                 type="password"
                 placeholder="Enter Password"
@@ -137,20 +138,27 @@ class Password extends Component {
         <div className="container2">
           <div className="hedderContainer">
             <div className="counter">
-              <h1>Your Passwords </h1>
-              {x > 0 ? (
-                <p className="number">{x}</p>
-              ) : (
-                <p className="number">0</p>
-              )}
+              <div>
+                <h1>Your Passwords </h1>
+              </div>
+              <div>
+                {x > 0 ? (
+                  <p className="number">{x}</p>
+                ) : (
+                  <p className="number">0</p>
+                )}
+              </div>
             </div>
-            <div className="textbox">
+
+            <div className="iconContainer">
               <img
-                className="icon"
+                className="icon1"
                 src="https://assets.ccbp.in/frontend/react-js/password-manager-search-img.png"
                 alt="search"
               />
+
               <input
+                className="searchBox"
                 onChange={this.filterList}
                 type="search"
                 placeholder="search"
